@@ -1,0 +1,86 @@
+/*Footer para movil y tablet*/
+.pie-pagina{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    background-color: #282A3A;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 25px 0;  
+}
+
+.grupo-2{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.box1 img{
+    display: flex;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.box1 h1{
+    text-align: center;
+}
+
+
+.box2 p{
+    padding: 0 15px 15px;
+    text-align: justify;
+}
+
+.box1, .box2, .box3{
+    margin-top: 10px;
+   
+}
+.box1, .box2{
+    border-bottom: 0.5px solid lightgray;
+}
+
+.box2 h1, .box3 h1{
+    padding-left: 15px;
+}
+
+.redes{
+    margin-left: 0;
+}
+
+.box3 img{
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+
+/*Adaptacion para PC*/
+@media(min-width: 768px) {
+    .pie-pagina .grupo-1{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .box1 img{
+        margin-top: 2%;
+        display: flex;
+       
+        
+    }
+
+    .box3{
+        margin-left: 2%;
+    }
+
+    .box1, .box2, .box3{
+        border-right: 0.2px solid lightgray;
+        border-bottom: none;
+    }
+}

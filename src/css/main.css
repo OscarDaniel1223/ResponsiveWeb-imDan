@@ -4,131 +4,7 @@
     margin: 0;
 }
 
-.titulo{
-    overflow: hidden;
-    background-color: #282A3A;
-    border-bottom: 1px solid lightgray;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 2px;
-}
 
-.titulo h1{
-    color: #fff;    
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 1.8em;
-    margin-left: 0.2em;
-}
-
-.titulo .menubutton{
-    width: 32px;
-    height: 32px;
-    float: right;
-    margin-right: 3%;
-    margin-top: -30px;
-}
-
-nav{
-    background-color: #282A3A;
-    overflow: hidden; 
-    display: none;
-}
-
-nav ul li{
-    display: block;
-   
-}
-
-nav ul li a{
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    border-bottom: 1px solid lightgray;
-    display: block;
-    list-style: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    font-size: 1em;
-   
-}
-
-
-
-nav h1{
-    display: none;
-}
-
-nav li a:hover{
-    background-color: #3e4157;
-}
-
-/*Footer para movil y tablet*/
-.pie-pagina{
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 0;
-    padding-bottom: 5px;
-    background-color: #282A3A;
-    color: gray;
-    font-family: 'Roboto', sans-serif;
-}
-
-.pie-pagina .grupo-1{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 25px 0;  
-}
-
-.grupo-2{
-    text-align: center;
-    margin-top: 25px;
-}
-
-.box1 img{
-    display: flex;
-    width: 30%;
-    margin-left: 35%;
-    margin-right: 35%;
-}
-
-.box1 h1{
-    text-align: center;
-}
-
-
-.box2 p{
-    padding: 0 15px 15px;
-    text-align: justify;
-}
-
-.box1, .box2, .box3{
-    margin-top: 10px;
-   
-}
-.box1, .box2{
-    border-bottom: 0.5px solid lightgray;
-}
-
-.box2 h1, .box3 h1{
-    padding-left: 15px;
-}
-
-.redes{
-    margin-left: 0;
-}
-
-.box3 img{
-    width: 45px;
-    height: 45px;
-    float: left;
-    margin-top: 5px;
-    padding-left: 15px;
-}
 
 
 /*Contenido del contenedor principal en movil y tablets*/
@@ -195,46 +71,7 @@ iframe{
 /*Adaptacion del nav y footer para Laptops y PC*/
 
 @media(min-width: 768px) {
-    .titulo{
-        display: none;
-    }
-    nav {
-        display: block;
-        overflow: hidden;
-        height: auto;
-        position: fixed;
-        width: 100%;
-        border-bottom: 1px solid lightgray;
-        margin-top: -100px;
-        background-color: #282A3A;
-        
-        
-    }
-    nav ul li a{
-        border: 0;
-        float: right;
-        font-size: 1em;
-        color: #fff;
-        padding-right: 2%;
-        padding-left: 2%;
-        overflow: hidden;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        letter-spacing: 0.05em;
-    }
-    nav ul{
-        margin-left: 12em;
-        margin-top: -40px;
-    }
-
-    nav h1{
-        display: inline-block;
-        color: #fff;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        margin-top: 50px;
-        margin-left: 1.5em;
-    }
+    
     .contenedor{
         margin-left: 10%;
         margin-right: 10%;
@@ -314,24 +151,7 @@ iframe{
     }
     
    
-    .pie-pagina .grupo-1{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .box1 img{
-        margin-top: 2%;
-        display: flex;
-       
-        
-    }
-
-    .box3{
-        margin-left: 2%;
-    }
-
-    .box1, .box2, .box3{
-        border-right: 0.2px solid lightgray;
-        border-bottom: none;
-    }
+    
 }
 
 

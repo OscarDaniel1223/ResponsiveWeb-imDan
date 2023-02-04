@@ -1,0 +1,123 @@
+.nav{
+    background-color: #282A3A;
+    display: none;
+}
+
+    
+ header .nav.activo{
+        background-color: #282A3A;
+        display: block;
+        
+}
+
+
+.titulo{
+    overflow: hidden;
+    background-color: #282A3A;
+    border-bottom: 1px solid lightgray;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    width: auto;
+}
+
+.titulo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.titulo h1{
+    color: #fff;    
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-left: 0.2em;
+}
+
+.menubutton{
+    float: right;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    margin-top: -35px;
+    cursor: pointer;
+}
+
+
+nav ul li{
+    display: block;
+   
+}
+
+nav ul li a{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    border-bottom: 1px solid lightgray;
+    display: block;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1em;
+    text-decoration: none;
+    
+   
+}
+
+nav h1{
+    display: none;
+    
+}
+
+nav li a:hover{
+    background-color: #3e4157;
+}
+
+@media(min-width: 768px){
+    .titulo{
+        display: none;
+    }
+    .nav {
+        display: block;
+        overflow: hidden;
+        height: auto;
+        position: fixed;
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+        margin-top: -100px;
+        background-color: #282A3A;
+      
+        
+    }
+   
+    nav ul li a{
+        border: 0;
+        float: right;
+        font-size: 1em;
+        color: #fff;
+        padding-right: 1%;
+        padding-left: 2%;
+        overflow: hidden;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        letter-spacing: 0.05em;
+        
+    }
+    
+    nav ul{
+        margin-left: 12em;
+        margin-top: -40px;
+    }
+
+    nav h1{
+        display: inline-block;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-left: 1.5em;
+        text-decoration: none;
+    }
+}
